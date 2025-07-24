@@ -1,0 +1,15 @@
+.admin-panel {
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.content {
+  margin-left: 220px;
+}

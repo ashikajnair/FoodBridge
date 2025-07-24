@@ -1,0 +1,59 @@
+/* src/pages/receiver/ReceiverLayout.css */
+
+.receiver-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.receiver-sidebar {
+  width: 220px;
+  background-color: #f0fdf4; /* Light green */
+  padding: 20px;
+  border-right: 1px solid #c6f6d5;
+}
+
+.receiver-sidebar h2 {
+  color: #2f855a;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.receiver-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.receiver-sidebar ul li {
+  margin: 12px 0;
+}
+
+.receiver-sidebar ul li a {
+  text-decoration: none;
+  color: #276749;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.receiver-sidebar ul li a:hover {
+  color: #22543d;
+}
+
+.receiver-main {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #ffffff;
+}
+.receiver-sidebar ul li {
+  margin: 12px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.receiver-sidebar ul li a {
+  text-decoration: none;
+  color: #276749;
+  font-weight: 500;
+}

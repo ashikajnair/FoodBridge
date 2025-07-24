@@ -1,0 +1,12 @@
+.register-image {
+  background-image: url('../assets/images/register-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.login-image {
+  background-image: url('../assets/images/login-image.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
